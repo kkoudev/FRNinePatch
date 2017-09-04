@@ -9,6 +9,10 @@ Directly importing FRNinePatch source codes to your xcode application project.
 ## Usage
 
 ```objc
+#import "FRNinePatch/FRNinePatch.h"
+
+...
+
 // imageView is UIImageView instance.
 // For imageName, set file name of 9-patch format file. (ex. "background@2x.9.png")
 [FRNinePatch setImage:self.imageView imageName:@"background"];
